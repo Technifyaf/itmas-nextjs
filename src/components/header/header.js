@@ -31,14 +31,15 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-
+              <a href = "https://forms.gle/WqBiCkoEudWmiGRD8">
           <Button
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
           >
-            Get Started
+          Join waiting list
           </Button>
+          </a>
 
           <MobileDrawer />
         </Container>

@@ -49,10 +49,11 @@ export default function Banner() {
           <Text as="p" variant="heroSecondary">
           A quick and easy way to make, collect and track mobile money payments        </Text>
           <Flex>
+            <a  href = "https://itmas.herokuapp.com/merchant">
             <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
+             Demo
             </Button>
-            <>
+            </a>
               <ModalVideo
                 channel="youtube"
                 isOpen={videoOpen}
@@ -66,10 +67,10 @@ export default function Banner() {
               >
                 <FaPlayCircle /> Watch Video
               </Button>
-            </>
+            
           </Flex>
           <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Powered by:</Text>
+            <Text sx={styles.sponsorTitle}>Demo log in details  username: thato@gmail.com, paswword :itmas</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>
