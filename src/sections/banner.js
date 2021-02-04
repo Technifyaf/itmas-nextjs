@@ -70,7 +70,7 @@ export default function Banner() {
             
           </Flex>
           <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Demo log in details  username: thato@gmail.com, paswword :itmas</Text>
+            <Text sx={styles.sponsorTitle}>Sponsor</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>
